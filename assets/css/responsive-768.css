@@ -1,0 +1,41 @@
+#masthead {
+  height: 90px;
+  padding-left: 25px;
+}
+
+.mobile-collapse {
+  width: auto;
+  float: none;
+  margin: 10px;
+}
+
+.main-section {
+  margin-top: 0px;
+  margin-left: 20px;
+  width: 100%;
+  max-width: 730px;
+  padding-bottom: 80px;
+  float: none;
+}
+
+.sidebar {
+  width: 100%;
+  max-width: 730px;
+  margin: 10px;
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  margin-right: 0px;
+  margin-right: 0px;
+  float: none;
+}
+
+#logo {
+  width: 100%;
+  max-width: 250px;
+  text-align: center;
+}
+
+.work {
+  float: none;s
+}

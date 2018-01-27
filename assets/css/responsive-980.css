@@ -1,0 +1,32 @@
+#masthead {
+  height: 90px;
+  padding-left: 125px;
+}
+
+nav {
+ padding-right: 140px;  
+}
+
+
+.main-section {
+  margin-top: 20px;
+  margin-left: 125px;
+  width: 100%;
+  max-width: 418px;
+}
+
+.sidebar {
+  width: 100%;
+  max-width: 270px;
+  margin-top: 20px;
+  margin-right: 125px;
+  margin-bottom: 40px;
+  float: right;
+}
+
+#logo {
+  width: 100%;
+  max-width: 250px;
+  text-align: center;
+}
+
