@@ -18,6 +18,11 @@
   float: none;
 }
 
+.main-section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 .sidebar {
   width: 100%;
   max-width: 730px;
@@ -37,5 +42,5 @@
 }
 
 .work {
-  float: none;s
+  float: left;
 }
