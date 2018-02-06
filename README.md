@@ -1,6 +1,6 @@
 <h1>Responsive Portfolio</h1>
 
-Click [here](file:///Users/jason_m_aron/Documents/Code/Responsive-Portfolio/index.html) to see the live game.
+Click [here]( https://jasonaron.github.io/Responsive-Portfolio/) to see the live website.
 
 <h2>Project</h2>
 
