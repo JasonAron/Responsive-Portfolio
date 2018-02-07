@@ -11,7 +11,7 @@ body {
 }
 
 
-/*Animations*/
+/*--------Animations--------*/
 .slideRight{
   animation-name: slideRight;
   -webkit-animation-name: slideRight; 
@@ -47,11 +47,7 @@ body {
 }
 
 
-
-
-
-
-/* general */
+/*--------general--------*/
 
 .container {
   width: 100%;
@@ -93,7 +89,7 @@ h3 {
   font-size: 22px;
 }
 
-/* header */
+/*--------header--------*/
 
 #masthead {
   position: fixed;
@@ -131,7 +127,7 @@ body {
   /*border: 2px solid #E1AC5F;*/
 }
 
-/* Nav Bar */
+/*--------Nav Bar--------*/
 nav {
   float: right;
   margin-top: 25px;
@@ -163,7 +159,7 @@ nav a:hover {
 }
 
 
-/* sidebar */
+/*--------sidebar--------*/
 .sidebar {
   float: right;
   width: 100%;
@@ -194,7 +190,7 @@ h3,
 }
 
 
-/* main */
+/*--------main--------*/
 #main-container {
   padding-top: 130px;
 }
@@ -204,14 +200,14 @@ h3,
   width: 100%;
   max-width: 650px;
   padding: 30px;
-  margin: 0 0 40px;
+  margin-bottom: 140px;
   background: #ffffff;
   box-shadow:-1px 2px 20px #ADADAD;
 
 }
 
 
-/* portfolio page */
+/*--------portfolio page---------*/
 .work {
   position: relative;
   float: left;
@@ -269,7 +265,7 @@ video {
 }
 
 
-/* contact page */
+/*--------contact page--------*/
 #contact-form ul {
   margin-bottom: 20px;
 }
@@ -314,7 +310,7 @@ input:hover {
 }
 
 
-/* footer */
+/*--------footer--------*/
 footer {
   padding: 30px 0;
   clear: both;
@@ -351,6 +347,9 @@ footer {
   text-align: center;
 }
 
+/*--------Media Queries--------*/
+
+/*--------980--------*/
 @media only screen and (max-width: 980px) {
   .container {
     max-width: 768px;
@@ -378,6 +377,7 @@ footer {
   }
 }
 
+/*-------768--------*/
 @media only screen and (max-width: 768px) {
   .main-section,
   .sidebar {
@@ -421,6 +421,7 @@ footer {
   }
 }
 
+/*--------640--------*/
 @media only screen and (max-width: 640px) {
   #masthead {
     /* Positioning */
@@ -434,6 +435,10 @@ footer {
 
   main.container {
     padding-top: 0;
+  }
+
+  .main-section{
+    margin-top: -100px;
   }
 
   #logo,
