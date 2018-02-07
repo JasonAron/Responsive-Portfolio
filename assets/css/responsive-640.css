@@ -27,6 +27,7 @@ nav a {
   margin: 10px;
   margin-top: 50px;
   float: none;
+  background: red;
 }
 
 .sidebar {
@@ -47,6 +48,11 @@ nav a {
 .work {
   max-width: 620px;
   float: none;
+}
+
+.container {
+  margin-top: 40px;
+}
 
 }
 
