@@ -434,6 +434,11 @@ footer {
     /* Positioning */
     position: static;
     margin-bottom: 20px;
+    position: relative;
+  }
+
+  footer {
+    position: relative;
   }
 
   header .container {
@@ -483,8 +488,7 @@ footer {
 
     /* Positioning */
     margin-left: 0;
-  
-}
+  }
 }
 
 
