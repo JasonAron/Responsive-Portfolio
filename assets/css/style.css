@@ -214,8 +214,6 @@ h3,
   width: 274px;
   margin: 20px 0 25px;
   overflow: auto;
-  box-shadow:-1px 2px 20px #ADADAD;
-
 }
 
 .work:nth-child(even) {
@@ -229,10 +227,12 @@ video {
 
 .work img {
   width: 100%;
+  height: 100%;
 }
 
 .work video {
   width: 100%;
+  height: 100%;
 }
 
 .work h3 {
@@ -256,6 +256,7 @@ video {
 .opaque {
   border-bottom: none;
 }
+
 .auth-image {
   float: left;
   width: 250px;
